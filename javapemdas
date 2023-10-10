@@ -1,0 +1,21 @@
+//MONTALBO, ROMMEL M - BSIT 2F - PROG 3
+
+import java.util.Scanner;
+class Main {
+  public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+            Double Addition, Subtraction, Multiplication, Division;
+            System.out.print("Enter the First number: ");
+                Double firstnum = scanner.nextDouble();
+                System.out.print("Enter the Second number: ");
+                    Double secondnum = scanner.nextDouble();
+        Addition = firstnum + secondnum;
+            Subtraction = firstnum - secondnum;
+                Multiplication = firstnum * secondnum;
+                    Division = firstnum / secondnum;
+        System.out.println("\nAddition: " + Addition);  
+            System.out.println("\nSubtraction: " + Subtraction);  
+                System.out.println("\nMultiplication: " + Multiplication);  
+                    System.out.println("\nDivision: " + Division);  
+    }
+}
